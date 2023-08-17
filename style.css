@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Orbitron', sans-serif;
+  /* margin-top: 2%; */
+  background-color: var(--first-color);
+}
+
+:root{
+  --first-color:#bbe1fa;
+  --second-color:#0F4C75;
+  --third-color:#1B262C;
+  --fourth-color:#2976a9;
+  --fifth-color:#14FFEC;
+  --sixth-color:#0c082a;
+}
+
+.dark-theme {
+  --first-color:#101c37;
+  --second-color:#000000;
+  --third-color:#214355;
+  --fourth-color:#2976a9;
+  --fifth-color:#14FFEC;
+  --sixth-color:#000000;
+}
+
+.button {
+  width: 75px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 5px solid var(--second-color);
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+#icon {
+  width: 70px;
+  cursor: pointer;
+  padding-top: 25px;
+}
+
+.buttons button:hover {
+  color: lavender;
+  background-color: var(--third-color);
+}
+
+.functions {
+  background-color: var(--fourth-color);
+}
+
+.equals{
+  background-color: var(--fifth-color);
+}
+
+.row {
+  margin: 8px 0;
+}
+
+.row input {
+  width: 305px;
+  font-size: 30px;
+  margin: 0;
+  padding: 10px;
+  border: 5px solid var(--sixth-color);
+  border-radius: 5px;
+  font-family: 'Orbitron', sans-serif;
+  text-align: right;
+  height: 68px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
